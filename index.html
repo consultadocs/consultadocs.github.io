@@ -1,1 +1,89 @@
-Hello World
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ConsultaDocs - Em Breve</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f2f6fc;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      color: #1e2a38;
+      text-align: center;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .logo-icon {
+      width: 48px;
+      height: 48px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin: 12px 0 32px;
+    }
+
+    .notify {
+      background: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    input[type="email"] {
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 6px;
+      width: 250px;
+      font-size: 1rem;
+    }
+
+    button {
+      background: #0b3f91;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-left: 10px;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #092e6d;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <img class="logo-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Check_mark_icon.svg/2048px-Check_mark_icon.svg.png" alt="Ícone" />
+    <h1>ConsultaDocs</h1>
+  </div>
+  <p>Consulta de CPF, CNPJ e renda estimada em segundos.<br>Simples. Rápido. Online.<br><strong>Estamos chegando!</strong></p>
+
+  <div class="notify">
+    <form>
+      <input type="email" placeholder="Digite seu e-mail" required />
+      <button type="submit">Avise-me</button>
+    </form>
+  </div>
+</body>
+</html>
